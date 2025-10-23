@@ -1,5 +1,5 @@
 {
-  "name": "@yungerdev/theme",
+  "name": "mantine-nord-theme",
   "description": "A Mantine theme object based on the Nord palette.",
   "author": "yunger <hello@yunger.dev> (https://yunger.dev/)",
   "version": "1.1.1",
@@ -9,13 +9,13 @@
     "mantine",
     "nord"
   ],
-  "homepage": "https://github.com/yungerdev/theme",
+  "homepage": "https://github.com/yunger7/mantine-nord-theme",
   "bugs": {
-    "url": "https://github.com/yungerdev/theme/issues"
+    "url": "https://github.com/yunger7/mantine-nord-theme/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yungerdev/theme.git"
+    "url": "https://github.com/yunger7/mantine-nord-theme.git"
   },
   "main": "dist/index.js",
   "module": "dist/theme.esm.js",

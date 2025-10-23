@@ -1,4 +1,4 @@
-# @yungerdev/theme
+# mantine-nord-theme
 
 A Mantine theme object based on the Nord palette. ([Light](https://i.imgur.com/qM7SQjC.jpg)・[Dark](https://i.imgur.com/JAZjk75.jpg))
 
@@ -6,9 +6,9 @@ A Mantine theme object based on the Nord palette. ([Light](https://i.imgur.com/q
 
 ```bash
 # With yarn
-yarn add @yungerdev/theme
+yarn add mantine-nord-theme
 # With npm
-npm install @yungerdev/theme
+npm install mantine-nord-theme
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ Basic usage
 
 ```tsx
 import { MantineProvider } from "@mantine/core";
-import { theme } from "@yungerdev/theme";
+import { theme } from "mantine-nord-theme";
 
 function Demo() {
   return (
@@ -32,7 +32,7 @@ Additional styles can be provided under the `MantineProvider`
 
 ```tsx
 import { MantineProvider } from "@mantine/core";
-import { theme, Scrollbar, TextSelection } from "@yungerdev/theme";
+import { theme, Scrollbar, TextSelection } from "mantine-nord-theme";
 
 function Demo() {
   return (
@@ -50,7 +50,7 @@ With a custom `colorScheme` and `ColorSchemeProvider`
 ```tsx
 import { useState } from "react";
 import { MantineProvider, ColorSchemeProvider, ColorScheme } from "@mantine/core";
-import { theme } from "@yungerdev/theme";
+import { theme } from "mantine-nord-theme";
 
 function Demo() {
   const [colorScheme, setColorScheme] = useState<ColorScheme>("light");
